@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="w3.css">
+  <title>hacking</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet ðŸ‘ -->
+  <style>
+
+
+
+  </style>
+</head>
+<body>
+ 
+<b>
+<div class="w3-margin ">
+
+<div class="w3-center ">
+ARP SPOOFING</div>
+<br><br><br>
+<div class="w3-center ">
+What Is ARP Spoofing?</div>
+<br><br>
+
+ARP spoofing is a type of attack in which a malicious actor sends falsified ARP (Address Resolution Protocol) messages over a local area network. This results in the linking of an attacker’s MAC address with the IP address of a legitimate computer or server on the network. Once the attacker’s MAC address is connected to an authentic IP address, the attacker will begin receiving any data that is intended for that IP address. ARP spoofing can enable malicious parties to intercept, modify or even stop data in-transit. ARP spoofing attacks can only occur on local area networks that utilize the Address Resolution Protocol. 
+<br><br>
+
+
+<b>ARP Spoofing Attacks<b>
+<br><br>
+The effects of ARP spoofing attacks can have serious implications for enterprises. In their most basic application, ARP spoofing attacks are used to steal sensitive information. Beyond this, ARP spoofing attacks are often used to facilitate other attacks such as:
+<br><br>
+Denial-of-service attacks: DoS attacks often leverage ARP spoofing to link multiple IP addresses with a single target’s MAC address. As a result, traffic that is intended for many different IP addresses will be redirected to the target’s MAC address, overloading the target with traffic.
+<br><br>
+Session hijacking: Session hijacking attacks can use ARP spoofing to steal session IDs, granting attackers access to private systems and data.
+<br><br>
+Man-In-The-Middle attacks: MITM attacks can rely on ARP spoofing to intercept and modify traffic between victims.
+<br><br>
+ 
+<div class="w3-center ">
+ARP Spoofing Tutorial</div>
+
+ARP spoofing attacks typically follow a similar progression. The steps to an ARP spoofing attack usually include:
+<br><br>
+1.   The attacker opens an ARP spoofing tool and sets the tool’s IP address to match the IP subnet of a target. Examples of popular ARP spoofing software include Arpspoof, Cain & Abel, Arpoison and Ettercap.
+<br><br>
+2.   The attacker uses the ARP spoofing tool to scan for the IP and MAC addresses of hosts in the target’s subnet.
+<br><br>
+3.   The attacker chooses its target and begins sending ARP packets across the LAN that contain the attacker’s MAC address and the target’s IP address.
+<br><br>
+4.   As other hosts on the LAN cache the spoofed ARP packets, data that those hosts send to the victim will go to the attacker instead. From here, the attacker can steal data or launch a more sophisticated follow-up attack.
+<br><br>
+ 
+<div class="w3-center ">
+ARP Spoofing Detection, Prevention and Protection</div><br><br>
+
+The following methods are recommended measures for detecting, preventing and protecting against ARP spoofing attacks:
+<br><br>
+·        Packet filtering: Packet filters inspect packets as they are transmitted across a network. Packet filters are useful in ARP spoofing prevention because they are capable of filtering out and blocking packets with conflicting source address information (packets from outside the network that show source addresses from inside the network and vice-versa).
+<br><br>
+ 
+<div class="w3-center ">
+·        Avoid trust relationships:</div>
+
+ Organizations should develop protocols that rely on trust relationships as little as possible. Trust relationships rely only on IP addresses for authentication, making it significantly easier for attackers to run ARP spoofing attacks when they are in place.
+<br><br>
+ 
+<div class="w3-center ">
+·        Use ARP spoofing detection software:</div>
+
+ There are many programs available that help organizations detect ARP spoofing attacks. These programs work by inspecting and certifying data before it is transmitted and blocking data that appears to be spoofed.
+<br><br>
+ 
+<div class="w3-center ">
+·        Use cryptographic network protocols:</div>
+
+ Transport Layer Security (TLS), Secure Shell (SSH), HTTP Secure (HTTPS) and other secure communications protocols bolster ARP spoofing attack prevention by encrypting data prior to transmission and authenticating data when it is received.
+
+ <b>
+</div>
+</body>
+</html>
